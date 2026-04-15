@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="gec" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <filter id="glec"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glec)">
+    <!-- Cloud shape at top -->
+    <path d="M42 42 C42 34 48 28 56 28 C60 28 64 30 66 33 C68 31 71 30 74 30 C80 30 86 36 86 42 C86 42 86 42 86 42 C90 42 94 46 94 52 C94 58 90 62 86 62 L42 62 C36 62 32 58 32 52 C32 46 36 42 42 42Z" stroke="url(#gec)" stroke-width="2" fill="#0A84FF" fill-opacity="0.08"/>
+    <!-- Desktop at bottom -->
+    <rect x="36" y="74" width="48" height="28" rx="4" stroke="#00D4AA" stroke-width="1.8" fill="#00D4AA" fill-opacity="0.06"/>
+    <!-- Screen content -->
+    <rect x="42" y="80" width="16" height="2" rx="1" fill="#0A84FF" opacity="0.5"/>
+    <rect x="42" y="85" width="24" height="2" rx="1" fill="#00D4AA" opacity="0.4"/>
+    <rect x="42" y="90" width="12" height="2" rx="1" fill="#7B61FF" opacity="0.4"/>
+    <!-- Connection beam cloud -> desktop -->
+    <line x1="55" y1="62" x2="55" y2="74" stroke="#0A84FF" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+    <line x1="65" y1="62" x2="65" y2="74" stroke="#00D4AA" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+    <!-- Data flow arrows -->
+    <polygon points="55,70 52,66 58,66" fill="#0A84FF" opacity="0.6"/>
+    <polygon points="65,66 62,70 68,70" fill="#00D4AA" opacity="0.6"/>
+  </g>
+</svg>

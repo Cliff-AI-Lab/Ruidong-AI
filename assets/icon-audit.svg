@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="gau" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <filter id="glau"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glau)">
+    <!-- Chart area -->
+    <line x1="28" y1="92" x2="28" y2="28" stroke="#0A84FF" stroke-width="1.5" opacity="0.5"/>
+    <line x1="28" y1="92" x2="96" y2="92" stroke="#0A84FF" stroke-width="1.5" opacity="0.5"/>
+    <!-- Bar chart bars with gradient -->
+    <rect x="36" y="70" width="10" height="22" rx="2" fill="#7B61FF" opacity="0.7"/>
+    <rect x="52" y="55" width="10" height="37" rx="2" fill="#0A84FF" opacity="0.8"/>
+    <rect x="68" y="42" width="10" height="50" rx="2" fill="url(#gau)" opacity="0.85"/>
+    <rect x="84" y="32" width="10" height="60" rx="2" fill="#00D4AA" opacity="0.9"/>
+    <!-- Trend line -->
+    <polyline points="41,65 57,50 73,38 89,28" stroke="#00D4AA" stroke-width="2" fill="none" opacity="0.7"/>
+    <!-- Data dots on trend line -->
+    <circle cx="41" cy="65" r="3" fill="#00D4AA"/>
+    <circle cx="57" cy="50" r="3" fill="#00D4AA"/>
+    <circle cx="73" cy="38" r="3" fill="#00D4AA"/>
+    <circle cx="89" cy="28" r="3.5" fill="#00D4AA"/>
+    <!-- Token symbol at top -->
+    <circle cx="89" cy="28" r="7" stroke="#00D4AA" stroke-width="1" fill="none" opacity="0.4"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="50%" stop-color="#00D4AA"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+    <filter id="glw"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glw)">
+    <!-- Central diamond / sparkle -->
+    <path d="M60 24 L68 52 L96 60 L68 68 L60 96 L52 68 L24 60 L52 52Z" fill="url(#gw)" opacity="0.7"/>
+    <!-- Inner sparkle -->
+    <path d="M60 40 L64 54 L78 60 L64 66 L60 80 L56 66 L42 60 L56 54Z" fill="#0D1117" opacity="0.5"/>
+    <!-- Tiny core -->
+    <circle cx="60" cy="60" r="4" fill="#00D4AA" opacity="0.9"/>
+    <!-- Orbiting particles -->
+    <circle cx="36" cy="36" r="2" fill="#0A84FF" opacity="0.5"/>
+    <circle cx="84" cy="36" r="2" fill="#7B61FF" opacity="0.5"/>
+    <circle cx="36" cy="84" r="2" fill="#00D4AA" opacity="0.5"/>
+    <circle cx="84" cy="84" r="2" fill="#0A84FF" opacity="0.5"/>
+    <!-- Light rays -->
+    <line x1="60" y1="20" x2="60" y2="14" stroke="#00D4AA" stroke-width="1" opacity="0.3"/>
+    <line x1="60" y1="100" x2="60" y2="106" stroke="#00D4AA" stroke-width="1" opacity="0.3"/>
+    <line x1="20" y1="60" x2="14" y2="60" stroke="#0A84FF" stroke-width="1" opacity="0.3"/>
+    <line x1="100" y1="60" x2="106" y2="60" stroke="#7B61FF" stroke-width="1" opacity="0.3"/>
+  </g>
+</svg>

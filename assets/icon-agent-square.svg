@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="ga" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <filter id="gla"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#gla)">
+    <!-- 3x3 Agent grid -->
+    <!-- Row 1 -->
+    <rect x="24" y="24" width="20" height="20" rx="5" stroke="#0A84FF" stroke-width="1.5" fill="#0A84FF" fill-opacity="0.12"/>
+    <rect x="50" y="24" width="20" height="20" rx="5" stroke="#00D4AA" stroke-width="1.5" fill="#00D4AA" fill-opacity="0.12"/>
+    <rect x="76" y="24" width="20" height="20" rx="5" stroke="#7B61FF" stroke-width="1.5" fill="#7B61FF" fill-opacity="0.12"/>
+    <!-- Row 2 -->
+    <rect x="24" y="50" width="20" height="20" rx="5" stroke="#00D4AA" stroke-width="1.5" fill="#00D4AA" fill-opacity="0.12"/>
+    <rect x="50" y="50" width="20" height="20" rx="5" stroke="#0A84FF" stroke-width="1.5" fill="#0A84FF" fill-opacity="0.15"/>
+    <rect x="76" y="50" width="20" height="20" rx="5" stroke="#00D4AA" stroke-width="1.5" fill="#00D4AA" fill-opacity="0.12"/>
+    <!-- Row 3 -->
+    <rect x="24" y="76" width="20" height="20" rx="5" stroke="#7B61FF" stroke-width="1.5" fill="#7B61FF" fill-opacity="0.12"/>
+    <rect x="50" y="76" width="20" height="20" rx="5" stroke="#00D4AA" stroke-width="1.5" fill="#00D4AA" fill-opacity="0.12"/>
+    <rect x="76" y="76" width="20" height="20" rx="5" stroke="#0A84FF" stroke-width="1.5" fill="#0A84FF" fill-opacity="0.12"/>
+    <!-- AI brain dots inside each cell -->
+    <circle cx="34" cy="34" r="3" fill="#0A84FF" opacity="0.8"/>
+    <circle cx="60" cy="34" r="3" fill="#00D4AA" opacity="0.8"/>
+    <circle cx="86" cy="34" r="3" fill="#7B61FF" opacity="0.8"/>
+    <circle cx="34" cy="60" r="3" fill="#00D4AA" opacity="0.8"/>
+    <circle cx="60" cy="60" r="4" fill="url(#ga)" opacity="0.9"/>
+    <circle cx="86" cy="60" r="3" fill="#00D4AA" opacity="0.8"/>
+    <circle cx="34" cy="86" r="3" fill="#7B61FF" opacity="0.8"/>
+    <circle cx="60" cy="86" r="3" fill="#00D4AA" opacity="0.8"/>
+    <circle cx="86" cy="86" r="3" fill="#0A84FF" opacity="0.8"/>
+    <!-- Center connections -->
+    <line x1="60" y1="60" x2="34" y2="34" stroke="#0A84FF" stroke-width="0.8" opacity="0.3"/>
+    <line x1="60" y1="60" x2="86" y2="34" stroke="#7B61FF" stroke-width="0.8" opacity="0.3"/>
+    <line x1="60" y1="60" x2="34" y2="86" stroke="#7B61FF" stroke-width="0.8" opacity="0.3"/>
+    <line x1="60" y1="60" x2="86" y2="86" stroke="#0A84FF" stroke-width="0.8" opacity="0.3"/>
+  </g>
+</svg>
