@@ -5,30 +5,229 @@
 <br/>
 <br/>
 
-# 睿动 AI &mdash; 企业级 AI for Scenes
+# Ruidong AI &mdash; Enterprise AI for Scenes
 
-### 从"试炼场"到"流水线"，让 AI 在真实业务场景中生长
-
-<br/>
-
-[![Platform](https://img.shields.io/badge/Platform-Agent_Cloud-0066FF?style=for-the-badge&logo=icloud&logoColor=white)](#-平台架构)
-[![Industry](https://img.shields.io/badge/覆盖行业-金融_·_能源_·_千行百业-00C48C?style=for-the-badge)](#-行业场景)
-[![Security](https://img.shields.io/badge/安全等级-工业级沙箱隔离-FF6B35?style=for-the-badge&logo=shieldsdotio&logoColor=white)](#-工业级安全底座)
-[![License](https://img.shields.io/badge/License-Enterprise-333333?style=for-the-badge)](#-联系我们)
+### From "Testing Grounds" to "Production Lines" &mdash; Let AI Grow in Real Business Scenarios
 
 <br/>
 
-**当全球目光还聚焦于 AI for Science 如何重塑科研边界时，企业级大模型的真正下半场已经悄然转换了赛道。**
-
-*睿动智能体云平台 —— 企业级 AI 场景试炼场，将 AI 从高深的概念转化为全量交付的数字化劳动力。*
+[![Platform](https://img.shields.io/badge/Platform-Agent_Cloud-0066FF?style=for-the-badge&logo=icloud&logoColor=white)](#-platform-architecture)
+[![Industry](https://img.shields.io/badge/Industries-Finance_·_Energy_·_Enterprise-00C48C?style=for-the-badge)](#-industry-scenarios)
+[![Security](https://img.shields.io/badge/Security-Industrial--Grade_Sandbox-FF6B35?style=for-the-badge&logo=shieldsdotio&logoColor=white)](#%EF%B8%8F-industrial-grade-security-foundation)
+[![License](https://img.shields.io/badge/License-Enterprise-333333?style=for-the-badge)](#-contact)
 
 <br/>
 
-[核心能力](#-核心能力) · [行业场景](#-行业场景) · [平台架构](#-平台架构) · [安全底座](#-工业级安全底座) · [English](#-english)
+**While the world focuses on how AI for Science reshapes research boundaries, the real second half of enterprise AI has quietly shifted tracks.**
+
+*The Ruidong Agent Cloud Platform — an enterprise AI scene testing ground, transforming AI from lofty concepts into fully delivered digital labor.*
+
+<br/>
+
+[Core Capabilities](#-core-capabilities) · [Industry Scenarios](#-industry-scenarios) · [Architecture](#-platform-architecture) · [Security](#%EF%B8%8F-industrial-grade-security-foundation) · [中文版](#-中文版)
 
 <br/>
 
 ---
+
+</div>
+
+<br/>
+
+## 🔭 Vision
+
+> **From laboratory exploration in "AI for Science" to real-world productivity in "AI for Scenes."**
+>
+> This is not merely a shift in technical focus — it marks the point where AI truly enters the capillaries of the enterprise.
+
+The Ruidong Agent Cloud Platform is dedicated to becoming the core engine of this transformation — turning AI from an "expensive experiment" into a **manageable, controllable, and auditable** enterprise operating system.
+
+<br/>
+
+## 🎯 Core Capabilities
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏛️ Agent Square
+
+Production-ready, industry-specific AI agents — deeply rooted in verticals, precisely positioned for execution.
+
+<img src="assets/agent-square.png" width="100%" alt="Agent Square" />
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 AI Asset Auditing
+
+Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Report."**
+
+<img src="assets/dashboard.png" width="100%" alt="Dashboard" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="25%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ed.svg" alt="Scene-Driven" />
+<br/><br/>
+<b>Scene-Driven</b>
+<br/>
+<sub>Frontline teams discover pain points<br/>Empower those who know the scene best</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e0.svg" alt="Natural Language Dev" />
+<br/><br/>
+<b>Natural Language Dev</b>
+<br/>
+<sub>Business users build agents<br/>via natural language — no coding required</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f680.svg" alt="Streamlined Delivery" />
+<br/><br/>
+<b>MVP → Total Delivery</b>
+<br/>
+<sub>Breaking tech-business barriers<br/>Streamlined path from prototype to production</sub>
+<br/><br/>
+</td>
+<td align="center" width="25%">
+<br/>
+<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f512.svg" alt="Industrial Security" />
+<br/><br/>
+<b>Industrial Security</b>
+<br/>
+<sub>Micro-VM sandbox isolation<br/>Physical-level data protection</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🏢 Industry Scenarios
+
+<table>
+<tr>
+<th width="20%" align="center">Industry</th>
+<th width="35%">Scene Agents</th>
+<th width="45%">Core Value</th>
+</tr>
+<tr>
+<td align="center"><b>🏦 Finance</b></td>
+<td>Penetrating Regulatory Agent<br/>Due Diligence Assistant · Account Opening Assistant</td>
+<td>Automated penetrating compliance auditing, reducing processing cycles from days to <b>minutes</b></td>
+</tr>
+<tr>
+<td align="center"><b>⚡ Energy</b></td>
+<td>Equipment Management Assistant<br/>Energy Knowledge Graph</td>
+<td>Solidifying veteran expertise into <b>digital assets</b>, ensuring safe &amp; smart production lines</td>
+</tr>
+<tr>
+<td align="center"><b>🏬 Corporate</b></td>
+<td>Financial Audit Assistant<br/>Contract Review Assistant</td>
+<td>Risk control verification in <b>seconds</b> — balancing rigor with efficiency</td>
+</tr>
+<tr>
+<td align="center"><b>🌐 Cross-Industry</b></td>
+<td>Custom agents via Intellectual Creation Workshop</td>
+<td>Business users model with natural language, accelerating AI-native transformation</td>
+</tr>
+</table>
+
+<br/>
+
+## 🔧 Platform Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                     Ruidong Agent Cloud Platform                        │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                 │
+│   │ Agent Square  │  │ Intellectual │  │   Ruidong    │                 │
+│   │  (Marketplace)│  │  Creation    │  │   Claw       │                 │
+│   │              │  │  Workshop    │  │   (Desktop)  │                 │
+│   └──────┬───────┘  └──────┬───────┘  └──────┬───────┘                 │
+│          │                 │                  │                          │
+│   ┌──────▼─────────────────▼──────────────────▼───────┐                 │
+│   │             Multi-Model Router                     │                 │
+│   │    Qwen · Claude · GLM · Kimi · MiniMax · ...     │                 │
+│   └────────────────────────┬──────────────────────────┘                 │
+│                            │                                            │
+│   ┌────────────────────────▼──────────────────────────┐                 │
+│   │        Industrial-Grade Security Foundation        │                 │
+│   │  Micro-VM Sandbox · Token Auditing · Edge-Cloud   │                 │
+│   └───────────────────────────────────────────────────┘                 │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+## 🛡️ Industrial-Grade Security Foundation
+
+<table>
+<tr>
+<td width="33%" align="center">
+<br/>
+<h3>🔒 Physical-Level Isolation</h3>
+<p>Micro-VM sandbox technology<br/>Every agent runs in an isolated environment<br/>Data <b>never leaves the internal network</b></p>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>📋 "The Fifth Report"</h3>
+<p>Beyond the four traditional financial statements<br/><b>AI Asset Auditing</b> introduced<br/>Token-level billing &amp; ROI analysis</p>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>🖥️ Edge-Cloud Synergy</h3>
+<p><b>Ruidong Claw</b> desktop client<br/>Cloud governance extended to the desktop<br/>IM · Docs · Native work scenarios</p>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## ✨ Why Ruidong
+
+| Dimension | Traditional AI | Ruidong AI for Scenes |
+|:---:|:---:|:---:|
+| **Development** | Tech-team driven, long cycles | Business users build via NL, minutes to go live |
+| **Security** | Data leakage risks | Micro-VM physical isolation, data stays on-prem |
+| **Cost Control** | AI spend unquantifiable | Token-level billing, full ROI visibility |
+| **Delivery** | POC-to-production gap | MVP → total delivery, streamlined path |
+| **Model Flexibility** | Single model lock-in | Multi-model routing, optimal match per scene |
+| **Org Enablement** | Few users | AI-native, organization-wide participation |
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+## 🇨🇳 中文版
+
+</div>
+
+<br/>
+
+<div align="center">
+
+# 睿动 AI &mdash; 企业级 AI for Scenes
+
+### 从"试炼场"到"流水线"，让 AI 在真实业务场景中生长
 
 </div>
 
@@ -54,7 +253,7 @@
 
 开箱即用的行业级 AI 智能体生态，深耕行业、精准卡位。
 
-<img src="assets/agent-square.png" width="100%" alt="Agent Square" />
+<img src="assets/agent-square.png" width="100%" alt="智能体广场" />
 
 </td>
 <td width="50%" valign="top">
@@ -63,7 +262,7 @@
 
 Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 
-<img src="assets/dashboard.png" width="100%" alt="Dashboard" />
+<img src="assets/dashboard.png" width="100%" alt="数据治理仪表盘" />
 
 </td>
 </tr>
@@ -149,27 +348,27 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 ## 🔧 平台架构
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                        睿动智能体云平台                                │
-│                   Ruidong Agent Cloud Platform                       │
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                │
-│   │  智能体广场   │  │  智创工坊    │  │  Ruidong     │                │
-│   │ Agent Square │  │  Workshop   │  │  Claw 桌面端  │                │
-│   └──────┬──────┘  └──────┬──────┘  └──────┬──────┘                │
-│          │                │                 │                        │
-│   ┌──────▼─────────────────▼─────────────────▼──────┐                │
-│   │            多模型调度引擎 · Model Router          │                │
-│   │   Qwen · Claude · GLM · Kimi · MiniMax · ...    │                │
-│   └──────────────────────┬──────────────────────────┘                │
-│                          │                                           │
-│   ┌──────────────────────▼──────────────────────────┐                │
-│   │              工业级安全底座                        │                │
-│   │  微虚拟机沙箱  ·  Token 级审计  ·  端云协同       │                │
-│   └─────────────────────────────────────────────────┘                │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         睿动智能体云平台                                  │
+│                   Ruidong Agent Cloud Platform                          │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                         │
+│   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐                 │
+│   │  智能体广场    │  │   智创工坊    │  │   Ruidong    │                 │
+│   │ Agent Square  │  │  Workshop    │  │  Claw 桌面端  │                 │
+│   └──────┬───────┘  └──────┬───────┘  └──────┬───────┘                 │
+│          │                 │                  │                          │
+│   ┌──────▼─────────────────▼──────────────────▼───────┐                 │
+│   │           多模型调度引擎 · Model Router              │                 │
+│   │    Qwen · Claude · GLM · Kimi · MiniMax · ...     │                 │
+│   └────────────────────────┬──────────────────────────┘                 │
+│                            │                                            │
+│   ┌────────────────────────▼──────────────────────────┐                 │
+│   │             工业级安全底座                           │                 │
+│   │   微虚拟机沙箱  ·  Token 级审计  ·  端云协同         │                 │
+│   └───────────────────────────────────────────────────┘                 │
+│                                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 <br/>
@@ -217,40 +416,13 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 
 <div align="center">
 
-## 🌍 English
+## 📬 Contact / 联系我们
 
-</div>
+**Ruidong AI** &nbsp;·&nbsp; Cliff AI Lab
 
-### Ruidong — Enterprise AI for Scenes
+For more information or to request a demo, feel free to reach out.
 
-> **From "Testing Grounds" to "Production Lines": A Total Evolution**
-
-While the world focuses on *AI for Science*, the real second half of enterprise AI has shifted tracks — moving from laboratory exploration to **AI for Scenes**, where AI enters the capillaries of real business operations.
-
-**The Ruidong Agent Cloud Platform** transforms AI from an expensive experiment into a **manageable, controllable, and auditable operating system** for every enterprise.
-
-#### Key Highlights
-
-- **Agent Square** — Pre-built industry-specific AI agents for finance, energy, and enterprise functions
-- **Intellectual Creation Workshop** — Business users build agents via natural language, no coding required
-- **Industrial-Grade Security** — Micro-VM sandbox isolation ensures data never leaves the internal network
-- **"The Fifth Report"** — Token-level billing and ROI analysis for complete AI asset governance
-- **Ruidong Claw** — Desktop client bridging cloud governance to the employee's native workspace
-- **Multi-Model Routing** — Qwen, Claude, GLM, Kimi, MiniMax, and more — optimally matched per scene
-
-<br/>
-
----
-
-<br/>
-
-<div align="center">
-
-## 📬 联系我们
-
-**睿动 AI** &nbsp;·&nbsp; Cliff AI Lab
-
-如需了解更多信息或申请试用，欢迎联系我们
+如需了解更多信息或申请试用，欢迎联系我们。
 
 <br/>
 
@@ -262,11 +434,11 @@ While the world focuses on *AI for Science*, the real second half of enterprise 
 
 <sub>
 
-*从实验室里的 AI for Science，到每一个业务场景里的 AI for Scenes。*
+*From AI for Science in the laboratory, to AI for Scenes in every business scenario.*
 
-*每一个痛点都是创新的火种，每一次试炼都是全量交付的前奏。*
+*Every pain point is a spark for innovation; every trial is a prelude to total delivery.*
 
-**睿动，让 AI 在场景中生长，让价值在实战中绽放。**
+**Ruidong — Let AI grow in scenes, let value bloom in practice.**
 
 </sub>
 
