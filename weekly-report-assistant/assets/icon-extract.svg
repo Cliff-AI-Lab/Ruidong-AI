@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="ge2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7B61FF"/><stop offset="100%" stop-color="#0A84FF"/></linearGradient>
+    <filter id="gle2"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#gle2)">
+    <circle cx="50" cy="52" r="22" stroke="url(#ge2)" stroke-width="2" fill="#7B61FF" fill-opacity="0.06"/>
+    <circle cx="50" cy="52" r="10" fill="#7B61FF" opacity="0.15"/>
+    <circle cx="50" cy="52" r="4" fill="#0A84FF" opacity="0.7"/>
+    <path d="M66 68 L82 84" stroke="#00D4AA" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="86" cy="88" r="5" fill="#00D4AA" opacity="0.3"/>
+    <rect x="28" y="40" width="8" height="2" rx="1" fill="#0A84FF" opacity="0.4"/>
+    <rect x="28" y="46" width="12" height="2" rx="1" fill="#0A84FF" opacity="0.3"/>
+    <rect x="60" y="38" width="10" height="2" rx="1" fill="#7B61FF" opacity="0.4"/>
+    <circle cx="36" cy="68" r="2" fill="#0A84FF" opacity="0.3"/>
+    <circle cx="72" cy="44" r="2" fill="#7B61FF" opacity="0.3"/>
+  </g>
+</svg>

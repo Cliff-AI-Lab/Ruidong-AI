@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4AA"/>
+      <stop offset="100%" stop-color="#0A84FF"/>
+    </linearGradient>
+    <filter id="glow4">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glow4)">
+    <!-- Shield outline -->
+    <path d="M60 20 L88 34 L88 58 C88 76 76 90 60 98 C44 90 32 76 32 58 L32 34Z" stroke="url(#g4)" stroke-width="2.5" fill="none"/>
+    <!-- Inner shield glow -->
+    <path d="M60 28 L82 39 L82 58 C82 72 72 84 60 90 C48 84 38 72 38 58 L38 39Z" fill="#00D4AA" opacity="0.08"/>
+    <!-- Circuit pattern inside shield -->
+    <line x1="48" y1="50" x2="60" y2="50" stroke="#00D4AA" stroke-width="1.5" opacity="0.7"/>
+    <line x1="60" y1="50" x2="60" y2="65" stroke="#0A84FF" stroke-width="1.5" opacity="0.7"/>
+    <line x1="60" y1="65" x2="72" y2="65" stroke="#00D4AA" stroke-width="1.5" opacity="0.7"/>
+    <line x1="60" y1="50" x2="72" y2="50" stroke="#0A84FF" stroke-width="1.5" opacity="0.5"/>
+    <line x1="48" y1="65" x2="60" y2="65" stroke="#00D4AA" stroke-width="1.5" opacity="0.5"/>
+    <!-- Circuit nodes -->
+    <circle cx="48" cy="50" r="3" fill="#00D4AA"/>
+    <circle cx="60" cy="50" r="3" fill="#0A84FF"/>
+    <circle cx="72" cy="50" r="3" fill="#00D4AA"/>
+    <circle cx="48" cy="65" r="3" fill="#0A84FF"/>
+    <circle cx="60" cy="65" r="3" fill="#00D4AA"/>
+    <circle cx="72" cy="65" r="3" fill="#0A84FF"/>
+    <!-- Lock symbol -->
+    <rect x="54" y="72" width="12" height="9" rx="2" fill="url(#g4)" opacity="0.8"/>
+    <path d="M56 72 L56 68 C56 65 58 63 60 63 C62 63 64 65 64 68 L64 72" stroke="#00D4AA" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

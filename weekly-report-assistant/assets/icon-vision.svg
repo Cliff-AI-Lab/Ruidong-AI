@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="gv" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <filter id="glv"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glv)">
+    <!-- Eye shape -->
+    <path d="M20 60 Q60 28 100 60 Q60 92 20 60Z" stroke="url(#gv)" stroke-width="2.5" fill="none"/>
+    <!-- Iris -->
+    <circle cx="60" cy="60" r="14" stroke="#0A84FF" stroke-width="2" fill="none"/>
+    <!-- Pupil with AI core -->
+    <circle cx="60" cy="60" r="7" fill="#00D4AA" opacity="0.8"/>
+    <circle cx="60" cy="60" r="3" fill="#0D1117"/>
+    <!-- Scan lines radiating from eye -->
+    <line x1="60" y1="38" x2="60" y2="28" stroke="#00D4AA" stroke-width="1.2" opacity="0.5"/>
+    <line x1="60" y1="82" x2="60" y2="92" stroke="#00D4AA" stroke-width="1.2" opacity="0.5"/>
+    <line x1="78" y1="54" x2="88" y2="48" stroke="#0A84FF" stroke-width="1" opacity="0.4"/>
+    <line x1="42" y1="54" x2="32" y2="48" stroke="#0A84FF" stroke-width="1" opacity="0.4"/>
+    <!-- Data dots around eye -->
+    <circle cx="60" cy="25" r="2" fill="#00D4AA" opacity="0.6"/>
+    <circle cx="60" cy="95" r="2" fill="#00D4AA" opacity="0.6"/>
+    <circle cx="90" y1="46" cy="46" r="1.5" fill="#0A84FF" opacity="0.5"/>
+    <circle cx="30" cy="46" r="1.5" fill="#0A84FF" opacity="0.5"/>
+  </g>
+  <!-- Pulse ring -->
+  <circle cx="60" cy="60" r="22" stroke="#0A84FF" stroke-width="0.8" opacity="0.2" fill="none"/>
+</svg>
