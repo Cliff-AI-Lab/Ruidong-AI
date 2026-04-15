@@ -1,46 +1,38 @@
 <div align="center">
 
-<img src="assets/hero-banner.png" width="100%" alt="Ruidong AI Platform" />
-
-<br/>
-<br/>
-
-# Ruidong AI &mdash; Enterprise AI for Scenes
-
-### From "Testing Grounds" to "Production Lines" &mdash; Let AI Grow in Real Business Scenarios
+<img src="assets/header-banner.svg" width="100%" alt="Ruidong AI — Enterprise AI for Scenes" />
 
 <br/>
 
-[![Platform](https://img.shields.io/badge/Platform-Agent_Cloud-0066FF?style=for-the-badge&logo=icloud&logoColor=white)](#-platform-architecture)
-[![Industry](https://img.shields.io/badge/Industries-Finance_·_Energy_·_Enterprise-00C48C?style=for-the-badge)](#-industry-scenarios)
-[![Security](https://img.shields.io/badge/Security-Industrial--Grade_Sandbox-FF6B35?style=for-the-badge&logo=shieldsdotio&logoColor=white)](#%EF%B8%8F-industrial-grade-security-foundation)
-[![License](https://img.shields.io/badge/License-Enterprise-333333?style=for-the-badge)](#-contact)
+[![Platform](https://img.shields.io/badge/Platform-Agent_Cloud-0A84FF?style=for-the-badge&labelColor=0D1117&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzBBODRGRiI+PGNpcmNsZSBjeD0iMTIiIGN5PSI4IiByPSIzIi8+PGNpcmNsZSBjeD0iNSIgY3k9IjE2IiByPSIyLjUiLz48Y2lyY2xlIGN4PSIxOSIgY3k9IjE2IiByPSIyLjUiLz48bGluZSB4MT0iMTIiIHkxPSI4IiB4Mj0iNSIgeTI9IjE2IiBzdHJva2U9IiMwQTg0RkYiIHN0cm9rZS13aWR0aD0iMS41Ii8+PGxpbmUgeDE9IjEyIiB5MT0iOCIgeDI9IjE5IiB5Mj0iMTYiIHN0cm9rZT0iIzBBODRGRiIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48L3N2Zz4=)](#-platform-architecture)
+[![Industry](https://img.shields.io/badge/Industries-Finance_·_Energy_·_Enterprise-00D4AA?style=for-the-badge&labelColor=0D1117)](#-industry-scenarios)
+[![Security](https://img.shields.io/badge/Security-Industrial--Grade_Sandbox-7B61FF?style=for-the-badge&labelColor=0D1117)](#%EF%B8%8F-industrial-grade-security-foundation)
+[![License](https://img.shields.io/badge/License-Enterprise-58A6FF?style=for-the-badge&labelColor=0D1117)](#-contact--联系我们)
 
 <br/>
 
-**While the world focuses on how AI for Science reshapes research boundaries, the real second half of enterprise AI has quietly shifted tracks.**
+<img src="assets/hero-banner.png" width="92%" alt="Ruidong AI Cloud Platform" style="border-radius: 12px;" />
 
-*The Ruidong Agent Cloud Platform — an enterprise AI scene testing ground, transforming AI from lofty concepts into fully delivered digital labor.*
-
+<br/>
 <br/>
 
 [Core Capabilities](#-core-capabilities) · [Industry Scenarios](#-industry-scenarios) · [Architecture](#-platform-architecture) · [Security](#%EF%B8%8F-industrial-grade-security-foundation) · [中文版](#-中文版)
-
-<br/>
-
----
 
 </div>
 
 <br/>
 
+<img src="assets/divider.svg" width="100%" />
+
+<br/>
+
 ## 🔭 Vision
 
-> **From laboratory exploration in "AI for Science" to real-world productivity in "AI for Scenes."**
+> **From laboratory exploration in *AI for Science* to real-world productivity in *AI for Scenes*.**
 >
-> This is not merely a shift in technical focus — it marks the point where AI truly enters the capillaries of the enterprise.
+> This is not merely a shift in technical focus — it marks the point where AI truly enters the **capillaries** of the enterprise.
 
-The Ruidong Agent Cloud Platform is dedicated to becoming the core engine of this transformation — turning AI from an "expensive experiment" into a **manageable, controllable, and auditable** enterprise operating system.
+The **Ruidong Agent Cloud Platform** is the core engine of this transformation — turning AI from an "expensive experiment" into a **manageable, controllable, and auditable** enterprise operating system.
 
 <br/>
 
@@ -75,38 +67,38 @@ Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Rep
 <tr>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ed.svg" alt="Scene-Driven" />
+<img width="80" src="assets/icon-scene.svg" alt="Scene-Driven" />
 <br/><br/>
 <b>Scene-Driven</b>
 <br/>
-<sub>Frontline teams discover pain points<br/>Empower those who know the scene best</sub>
+<sub>Frontline teams discover pain points first.<br/>Empower those who know the scene best.</sub>
 <br/><br/>
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e0.svg" alt="Natural Language Dev" />
+<img width="80" src="assets/icon-nldev.svg" alt="Natural Language Dev" />
 <br/><br/>
 <b>Natural Language Dev</b>
 <br/>
-<sub>Business users build agents<br/>via natural language — no coding required</sub>
+<sub>Business users build agents directly<br/>via natural language — zero coding.</sub>
 <br/><br/>
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f680.svg" alt="Streamlined Delivery" />
+<img width="80" src="assets/icon-delivery.svg" alt="Streamlined Delivery" />
 <br/><br/>
 <b>MVP → Total Delivery</b>
 <br/>
-<sub>Breaking tech-business barriers<br/>Streamlined path from prototype to production</sub>
+<sub>Breaking tech-business barriers.<br/>Prototype to production, streamlined.</sub>
 <br/><br/>
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f512.svg" alt="Industrial Security" />
+<img width="80" src="assets/icon-security.svg" alt="Industrial Security" />
 <br/><br/>
 <b>Industrial Security</b>
 <br/>
-<sub>Micro-VM sandbox isolation<br/>Physical-level data protection</sub>
+<sub>Micro-VM sandbox isolation.<br/>Physical-level data protection.</sub>
 <br/><br/>
 </td>
 </tr>
@@ -211,19 +203,13 @@ Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Rep
 
 <br/>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 <br/>
 
 <div align="center">
 
 ## 🇨🇳 中文版
-
-</div>
-
-<br/>
-
-<div align="center">
 
 # 睿动 AI &mdash; 企业级 AI for Scenes
 
@@ -239,7 +225,7 @@ Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Rep
 >
 > 这不仅是技术重心的转移，更是 AI 真正进入企业"毛细血管"的标志。
 
-睿动智能体云平台致力于成为这场变革的核心引擎——让 AI 不再是"昂贵的实验"，而是一套 **可管、可控、可审计** 的企业级操作系统。
+**睿动智能体云平台**致力于成为这场变革的核心引擎——让 AI 不再是"昂贵的实验"，而是一套 **可管、可控、可审计** 的企业级操作系统。
 
 <br/>
 
@@ -274,7 +260,7 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 <tr>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ed.svg" alt="场景驱动" />
+<img width="80" src="assets/icon-scene.svg" alt="场景驱动" />
 <br/><br/>
 <b>场景驱动</b>
 <br/>
@@ -283,7 +269,7 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e0.svg" alt="自然语言开发" />
+<img width="80" src="assets/icon-nldev.svg" alt="自然语言开发" />
 <br/><br/>
 <b>自然语言开发</b>
 <br/>
@@ -292,7 +278,7 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f680.svg" alt="极简交付" />
+<img width="80" src="assets/icon-delivery.svg" alt="极简交付" />
 <br/><br/>
 <b>MVP → 全量交付</b>
 <br/>
@@ -301,7 +287,7 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 </td>
 <td align="center" width="25%">
 <br/>
-<img width="60" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f512.svg" alt="工业级安全" />
+<img width="80" src="assets/icon-security.svg" alt="工业级安全" />
 <br/><br/>
 <b>工业级安全</b>
 <br/>
@@ -410,7 +396,7 @@ Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 
 <br/>
 
----
+<img src="assets/divider.svg" width="100%" />
 
 <br/>
 
@@ -426,7 +412,7 @@ For more information or to request a demo, feel free to reach out.
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Cliff--AI--Lab-181717?style=for-the-badge&logo=github)](https://github.com/Cliff-AI-Lab)
+[![GitHub](https://img.shields.io/badge/GitHub-Cliff--AI--Lab-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/Cliff-AI-Lab)
 
 <br/>
 
@@ -436,9 +422,11 @@ For more information or to request a demo, feel free to reach out.
 
 *From AI for Science in the laboratory, to AI for Scenes in every business scenario.*
 
-*Every pain point is a spark for innovation; every trial is a prelude to total delivery.*
+*每一个痛点都是创新的火种，每一次试炼都是全量交付的前奏。*
 
 **Ruidong — Let AI grow in scenes, let value bloom in practice.**
+
+**睿动，让 AI 在场景中生长，让价值在实战中绽放。**
 
 </sub>
 

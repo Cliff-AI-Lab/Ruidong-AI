@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A84FF"/>
+      <stop offset="50%" stop-color="#00D4AA"/>
+      <stop offset="100%" stop-color="#7B61FF"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#0D1117"/>
+  <g filter="url(#glow3)">
+    <!-- Rocket body -->
+    <path d="M60 22 C60 22 48 42 48 62 C48 72 53 78 60 82 C67 78 72 72 72 62 C72 42 60 22 60 22Z" fill="url(#g3)" opacity="0.9"/>
+    <!-- Rocket window -->
+    <circle cx="60" cy="50" r="6" fill="#0D1117" stroke="#00D4AA" stroke-width="1.5"/>
+    <circle cx="60" cy="50" r="3" fill="#00D4AA" opacity="0.4"/>
+    <!-- Fins -->
+    <path d="M48 65 L38 78 L48 74Z" fill="#0A84FF" opacity="0.7"/>
+    <path d="M72 65 L82 78 L72 74Z" fill="#0A84FF" opacity="0.7"/>
+    <!-- Exhaust / circuit trail -->
+    <line x1="55" y1="84" x2="50" y2="96" stroke="#0A84FF" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+    <line x1="60" y1="84" x2="60" y2="98" stroke="#00D4AA" stroke-width="2" opacity="0.7" stroke-linecap="round"/>
+    <line x1="65" y1="84" x2="70" y2="96" stroke="#7B61FF" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+    <!-- Data particles -->
+    <circle cx="48" cy="98" r="1.5" fill="#0A84FF" opacity="0.5"/>
+    <circle cx="60" cy="102" r="1.5" fill="#00D4AA" opacity="0.5"/>
+    <circle cx="72" cy="98" r="1.5" fill="#7B61FF" opacity="0.5"/>
+    <circle cx="52" cy="94" r="1" fill="#0A84FF" opacity="0.3"/>
+    <circle cx="68" cy="94" r="1" fill="#7B61FF" opacity="0.3"/>
+  </g>
+</svg>
