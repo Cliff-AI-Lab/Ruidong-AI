@@ -46,7 +46,7 @@ The **Ruidong Agent Cloud Platform** is the core engine of this transformation �
 
 Production-ready, industry-specific AI agents — deeply rooted in verticals, precisely positioned for execution.
 
-<img src="assets/agent-square.png" width="100%" alt="Agent Square" />
+<img src="assets/illustration-agent-square.svg" width="100%" alt="Agent Square" />
 
 </td>
 <td width="50%" valign="top">
@@ -55,7 +55,7 @@ Production-ready, industry-specific AI agents — deeply rooted in verticals, pr
 
 Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Report."**
 
-<img src="assets/dashboard.png" width="100%" alt="Dashboard" />
+<img src="assets/illustration-dashboard.svg" width="100%" alt="AI Asset Auditing Dashboard" />
 
 </td>
 </tr>
@@ -248,7 +248,7 @@ Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Rep
 
 开箱即用的行业级 AI 智能体生态，深耕行业、精准卡位。
 
-<img src="assets/agent-square.png" width="100%" alt="智能体广场" />
+<img src="assets/illustration-agent-square.svg" width="100%" alt="智能体广场" />
 
 </td>
 <td width="50%" valign="top">
@@ -257,7 +257,7 @@ Token-level billing and ROI analysis — the enterprise's **"Fifth Financial Rep
 
 Token 级计费与 ROI 分析——企业的 **"第五张报表"**。
 
-<img src="assets/dashboard.png" width="100%" alt="数据治理仪表盘" />
+<img src="assets/illustration-dashboard.svg" width="100%" alt="数据治理仪表盘" />
 
 </td>
 </tr>

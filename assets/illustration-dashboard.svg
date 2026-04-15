@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" fill="none">
+  <defs>
+    <linearGradient id="dbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#161B22"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0A84FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0A84FF" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00D4AA" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#00D4AA" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7B61FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7B61FF" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="dgl"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="dsgl"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" rx="16" fill="url(#dbg)"/>
+
+  <!-- Grid -->
+  <g opacity="0.04" stroke="#0A84FF" stroke-width="0.5">
+    <line x1="0" y1="60" x2="800" y2="60"/><line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/><line x1="0" y1="240" x2="800" y2="240"/>
+    <line x1="0" y1="300" x2="800" y2="300"/><line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="0" y1="420" x2="800" y2="420"/>
+    <line x1="100" y1="0" x2="100" y2="480"/><line x1="200" y1="0" x2="200" y2="480"/>
+    <line x1="300" y1="0" x2="300" y2="480"/><line x1="400" y1="0" x2="400" y2="480"/>
+    <line x1="500" y1="0" x2="500" y2="480"/><line x1="600" y1="0" x2="600" y2="480"/>
+    <line x1="700" y1="0" x2="700" y2="480"/>
+  </g>
+
+  <!-- Ambient -->
+  <g filter="url(#dgl)" opacity="0.1">
+    <circle cx="250" cy="160" r="100" fill="#0A84FF"/>
+    <circle cx="600" cy="320" r="80" fill="#7B61FF"/>
+    <circle cx="700" cy="120" r="60" fill="#00D4AA"/>
+  </g>
+
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="140" height="480" rx="16" fill="#0D1117" stroke="#1E2630" stroke-width="1"/>
+  <rect x="135" y="0" width="5" height="480" fill="#1E2630" opacity="0.5"/>
+
+  <!-- Sidebar logo -->
+  <circle cx="36" cy="32" r="12" stroke="#0A84FF" stroke-width="1.2" fill="#0A84FF" fill-opacity="0.1"/>
+  <circle cx="36" cy="32" r="4" fill="#0A84FF" opacity="0.6"/>
+  <rect x="56" y="26" width="52" height="5" rx="2.5" fill="#58A6FF" opacity="0.5"/>
+  <rect x="56" y="35" width="36" height="3" rx="1.5" fill="#8B949E" opacity="0.3"/>
+
+  <!-- Sidebar nav -->
+  <g opacity="0.25">
+    <circle cx="32" cy="72" r="3.5" fill="#8B949E"/>
+    <rect x="44" y="69" width="56" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="32" cy="96" r="3.5" fill="#8B949E"/>
+    <rect x="44" y="93" width="48" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="32" cy="120" r="3.5" fill="#8B949E"/>
+    <rect x="44" y="117" width="40" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+  </g>
+  <!-- Active nav item -->
+  <rect x="12" y="140" width="112" height="26" rx="6" fill="#0A84FF" fill-opacity="0.1" stroke="#0A84FF" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="32" cy="153" r="3.5" fill="#0A84FF" opacity="0.7"/>
+  <rect x="44" y="150" width="60" height="4" rx="2" fill="#0A84FF" opacity="0.6"/>
+
+  <g opacity="0.25">
+    <circle cx="32" cy="186" r="3.5" fill="#8B949E"/>
+    <rect x="44" y="183" width="52" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="32" cy="210" r="3.5" fill="#8B949E"/>
+    <rect x="44" y="207" width="44" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+  </g>
+
+  <!-- ===== TOP ROW: Trend + Donut ===== -->
+
+  <!-- Trend Analysis Panel -->
+  <rect x="156" y="16" width="380" height="220" rx="12" fill="#161B22" stroke="#1E2630" stroke-width="1"/>
+  <rect x="172" y="30" width="100" height="6" rx="3" fill="#C9D1D9" opacity="0.6"/>
+
+  <!-- Tab buttons -->
+  <rect x="300" y="26" width="52" height="20" rx="6" fill="#0A84FF" fill-opacity="0.15" stroke="#0A84FF" stroke-width="0.6" stroke-opacity="0.5"/>
+  <rect x="310" y="33" width="32" height="4" rx="2" fill="#0A84FF" opacity="0.6"/>
+  <rect x="358" y="26" width="52" height="20" rx="6" fill="transparent"/>
+  <rect x="368" y="33" width="32" height="4" rx="2" fill="#8B949E" opacity="0.3"/>
+  <rect x="416" y="26" width="52" height="20" rx="6" fill="transparent"/>
+  <rect x="426" y="33" width="32" height="4" rx="2" fill="#8B949E" opacity="0.3"/>
+
+  <!-- Y-axis labels -->
+  <g fill="#8B949E" opacity="0.3" font-family="sans-serif" font-size="9">
+    <text x="170" y="70">4.5K</text><text x="170" y="100">3.5K</text>
+    <text x="170" y="130">2.5K</text><text x="170" y="160">1.5K</text>
+    <text x="170" y="190">500</text>
+  </g>
+
+  <!-- Chart grid lines -->
+  <g stroke="#1E2630" stroke-width="0.5" opacity="0.8">
+    <line x1="200" y1="68" x2="520" y2="68"/><line x1="200" y1="98" x2="520" y2="98"/>
+    <line x1="200" y1="128" x2="520" y2="128"/><line x1="200" y1="158" x2="520" y2="158"/>
+    <line x1="200" y1="188" x2="520" y2="188"/>
+  </g>
+
+  <!-- Area fill under trend line -->
+  <path d="M220 150 L280 130 L340 140 L400 108 L460 98 L500 90 L500 200 L220 200Z" fill="#0A84FF" opacity="0.08"/>
+
+  <!-- Trend line 1 (orange/amount) -->
+  <g filter="url(#dsgl)">
+    <polyline points="220,150 260,142 300,148 340,130 380,108 420,115 460,100 500,104" stroke="#F0883E" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Data points -->
+    <circle cx="220" cy="150" r="4" fill="#0D1117" stroke="#F0883E" stroke-width="2"/>
+    <circle cx="300" cy="148" r="4" fill="#0D1117" stroke="#F0883E" stroke-width="2"/>
+    <circle cx="380" cy="108" r="4" fill="#0D1117" stroke="#F0883E" stroke-width="2"/>
+    <circle cx="460" cy="100" r="4" fill="#0D1117" stroke="#F0883E" stroke-width="2"/>
+  </g>
+
+  <!-- Trend line 2 (blue dashed/token) -->
+  <polyline points="220,170 280,155 340,145 400,130 460,115 500,108" stroke="#0A84FF" stroke-width="2" fill="none" stroke-dasharray="6 4" opacity="0.7"/>
+
+  <!-- X-axis labels -->
+  <g fill="#8B949E" opacity="0.3" font-family="sans-serif" font-size="9">
+    <text x="218" y="214">4/9</text><text x="298" y="214">4/11</text>
+    <text x="378" y="214">4/13</text><text x="458" y="214">4/15</text>
+  </g>
+
+  <!-- Legend dots -->
+  <circle cx="240" y="55" cy="55" r="4" fill="#F0883E"/>
+  <rect x="250" y="52" width="40" height="4" rx="2" fill="#8B949E" opacity="0.4"/>
+  <circle cx="310" cy="55" r="4" fill="#0A84FF"/>
+  <rect x="320" y="52" width="48" height="4" rx="2" fill="#8B949E" opacity="0.4"/>
+
+  <!-- ===== Donut Chart Panel ===== -->
+  <rect x="548" y="16" width="236" height="220" rx="12" fill="#161B22" stroke="#1E2630" stroke-width="1"/>
+  <rect x="564" y="30" width="80" height="6" rx="3" fill="#C9D1D9" opacity="0.6"/>
+
+  <!-- Donut Chart -->
+  <g transform="translate(620, 126)" filter="url(#dsgl)">
+    <!-- Segments -->
+    <circle r="52" fill="none" stroke="#0A84FF" stroke-width="22" stroke-dasharray="82 245" stroke-dashoffset="0" opacity="0.8"/>
+    <circle r="52" fill="none" stroke="#7B61FF" stroke-width="22" stroke-dasharray="54 273" stroke-dashoffset="-82" opacity="0.8"/>
+    <circle r="52" fill="none" stroke="#00D4AA" stroke-width="22" stroke-dasharray="44 283" stroke-dashoffset="-136" opacity="0.8"/>
+    <circle r="52" fill="none" stroke="#F0883E" stroke-width="22" stroke-dasharray="34 293" stroke-dashoffset="-180" opacity="0.8"/>
+    <circle r="52" fill="none" stroke="#F778BA" stroke-width="22" stroke-dasharray="28 299" stroke-dashoffset="-214" opacity="0.7"/>
+    <circle r="52" fill="none" stroke="#58A6FF" stroke-width="22" stroke-dasharray="55 272" stroke-dashoffset="-242" opacity="0.6"/>
+    <!-- Center hole -->
+    <circle r="32" fill="#161B22"/>
+  </g>
+
+  <!-- Donut legend -->
+  <g font-family="sans-serif" font-size="8" opacity="0.6">
+    <circle cx="706" cy="52" r="3" fill="#0A84FF"/><rect x="714" y="49" width="52" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="706" cy="68" r="3" fill="#7B61FF"/><rect x="714" y="65" width="48" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="706" cy="84" r="3" fill="#00D4AA"/><rect x="714" y="81" width="44" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="706" cy="100" r="3" fill="#F0883E"/><rect x="714" y="97" width="40" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="706" cy="116" r="3" fill="#F778BA"/><rect x="714" y="113" width="52" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+  </g>
+
+  <!-- ===== BOTTOM ROW: Model Analysis + Activity ===== -->
+
+  <!-- Model Analysis Panel -->
+  <rect x="156" y="248" width="380" height="220" rx="12" fill="#161B22" stroke="#1E2630" stroke-width="1"/>
+  <rect x="172" y="262" width="88" height="6" rx="3" fill="#C9D1D9" opacity="0.6"/>
+
+  <!-- Tab buttons -->
+  <rect x="300" y="258" width="48" height="20" rx="6" fill="#0A84FF" fill-opacity="0.15" stroke="#0A84FF" stroke-width="0.6" stroke-opacity="0.5"/>
+  <rect x="310" y="265" width="28" height="4" rx="2" fill="#0A84FF" opacity="0.6"/>
+  <rect x="354" y="258" width="48" height="20" rx="6" fill="transparent"/>
+  <rect x="364" y="265" width="28" height="4" rx="2" fill="#8B949E" opacity="0.3"/>
+  <rect x="408" y="258" width="48" height="20" rx="6" fill="transparent"/>
+  <rect x="418" y="265" width="28" height="4" rx="2" fill="#8B949E" opacity="0.3"/>
+
+  <!-- Bubble chart axis -->
+  <line x1="192" y1="296" x2="192" y2="440" stroke="#1E2630" stroke-width="1"/>
+  <line x1="192" y1="440" x2="520" y2="440" stroke="#1E2630" stroke-width="1"/>
+
+  <!-- Scatter/Bubble dots -->
+  <g filter="url(#dsgl)">
+    <circle cx="240" cy="400" r="8" fill="#0A84FF" opacity="0.6"/>
+    <circle cx="260" cy="390" r="10" fill="#7B61FF" opacity="0.6"/>
+    <circle cx="290" cy="380" r="7" fill="#00D4AA" opacity="0.6"/>
+    <circle cx="320" cy="360" r="12" fill="#0A84FF" opacity="0.5"/>
+    <circle cx="340" cy="370" r="6" fill="#F778BA" opacity="0.6"/>
+    <circle cx="370" cy="340" r="14" fill="#00D4AA" opacity="0.5"/>
+    <circle cx="400" cy="350" r="9" fill="#F0883E" opacity="0.6"/>
+    <circle cx="420" cy="330" r="16" fill="#7B61FF" opacity="0.5"/>
+    <circle cx="460" cy="310" r="20" fill="#0A84FF" opacity="0.4"/>
+    <circle cx="490" cy="320" r="11" fill="#00D4AA" opacity="0.5"/>
+  </g>
+
+  <!-- Bubble legend -->
+  <g opacity="0.5">
+    <circle cx="200" cy="454" r="3" fill="#0A84FF"/><rect x="208" y="451" width="36" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="256" cy="454" r="3" fill="#7B61FF"/><rect x="264" y="451" width="36" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="312" cy="454" r="3" fill="#00D4AA"/><rect x="320" y="451" width="36" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <circle cx="368" cy="454" r="3" fill="#F0883E"/><rect x="376" y="451" width="36" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+  </g>
+
+  <!-- ===== Activity Analysis Panel ===== -->
+  <rect x="548" y="248" width="236" height="220" rx="12" fill="#161B22" stroke="#1E2630" stroke-width="1"/>
+  <rect x="564" y="262" width="96" height="6" rx="3" fill="#C9D1D9" opacity="0.6"/>
+
+  <!-- Tab buttons -->
+  <rect x="688" y="258" width="40" height="20" rx="6" fill="#0A84FF" fill-opacity="0.15" stroke="#0A84FF" stroke-width="0.6" stroke-opacity="0.5"/>
+  <rect x="696" y="265" width="24" height="4" rx="2" fill="#0A84FF" opacity="0.6"/>
+  <rect x="734" y="258" width="40" height="20" rx="6" fill="transparent"/>
+  <rect x="742" y="265" width="24" height="4" rx="2" fill="#8B949E" opacity="0.3"/>
+
+  <!-- Activity bar chart -->
+  <g>
+    <!-- Y-axis ticks -->
+    <g fill="#8B949E" opacity="0.2" font-family="sans-serif" font-size="8">
+      <text x="560" y="302">2.1K</text><text x="560" y="330">1.5K</text>
+      <text x="560" y="358">900</text><text x="560" y="386">300</text>
+    </g>
+    <g stroke="#1E2630" stroke-width="0.5" opacity="0.6">
+      <line x1="588" y1="300" x2="770" y2="300"/><line x1="588" y1="328" x2="770" y2="328"/>
+      <line x1="588" y1="356" x2="770" y2="356"/><line x1="588" y1="384" x2="770" y2="384"/>
+    </g>
+    <line x1="588" y1="412" x2="770" y2="412" stroke="#1E2630" stroke-width="1"/>
+
+    <!-- Bars -->
+    <rect x="596" y="372" width="12" height="40" rx="2" fill="url(#bar1)" opacity="0.7"/>
+    <rect x="614" y="358" width="12" height="54" rx="2" fill="url(#bar2)" opacity="0.7"/>
+    <rect x="632" y="340" width="12" height="72" rx="2" fill="url(#bar1)" opacity="0.8"/>
+    <rect x="650" y="316" width="12" height="96" rx="2" fill="url(#bar2)" opacity="0.8"/>
+    <rect x="668" y="302" width="12" height="110" rx="2" fill="url(#bar1)" opacity="0.9"/>
+    <rect x="686" y="308" width="12" height="104" rx="2" fill="url(#bar2)" opacity="0.85"/>
+    <rect x="704" y="322" width="12" height="90" rx="2" fill="url(#bar3)" opacity="0.8"/>
+    <rect x="722" y="338" width="12" height="74" rx="2" fill="url(#bar1)" opacity="0.75"/>
+    <rect x="740" y="348" width="12" height="64" rx="2" fill="url(#bar2)" opacity="0.7"/>
+    <rect x="758" y="364" width="12" height="48" rx="2" fill="url(#bar3)" opacity="0.65"/>
+  </g>
+
+  <!-- X-axis labels -->
+  <g fill="#8B949E" opacity="0.25" font-family="sans-serif" font-size="8">
+    <text x="595" y="424">02:00</text><text x="641" y="424">06:00</text>
+    <text x="687" y="424">10:00</text><text x="733" y="424">14:00</text>
+  </g>
+
+  <!-- Activity bottom legend -->
+  <g opacity="0.4">
+    <rect x="600" y="440" width="8" height="8" rx="2" fill="#0A84FF"/><rect x="614" y="442" width="32" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <rect x="660" y="440" width="8" height="8" rx="2" fill="#00D4AA"/><rect x="674" y="442" width="32" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+    <rect x="720" y="440" width="8" height="8" rx="2" fill="#7B61FF"/><rect x="734" y="442" width="24" height="4" rx="2" fill="#8B949E" opacity="0.5"/>
+  </g>
+</svg>
