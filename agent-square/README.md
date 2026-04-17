@@ -1,107 +1,166 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Agent_Square-General_Purpose-0A84FF?style=for-the-badge&labelColor=0D1117" alt="Agent Square — General" />
-  <img src="https://img.shields.io/badge/Agents-31-00D4AA?style=for-the-badge&labelColor=0D1117" alt="31 Agents" />
-  <img src="https://img.shields.io/badge/Bilingual-ZH_·_EN-7B61FF?style=for-the-badge&labelColor=0D1117" alt="Bilingual" />
-</p>
+<div align="center">
 
-<h1 align="center">Agent Square · General-Purpose Collection</h1>
+<img src="assets/hero-en.png" width="92%" alt="Agent Square · 365 Agents — Digital Intellectual Library Map & Evolution System" />
 
-<p align="center">
-  <b>31 production-ready general-purpose AI agents</b><br/>
-  <sub>Digital employees and horizontal-scenario agents covering secretary, translation, design, HR, contract, ESG, global expansion, knowledge base, and more.</sub>
-</p>
+<br/>
+<br/>
 
-<p align="center">
-  <a href="#quick-start">Quick Start</a> ·
-  <a href="#catalog">Catalog</a> ·
-  <a href="#naming-system">Naming System</a> ·
-  <a href="#file-format">File Format</a> ·
-  <a href="#中文版">中文版</a>
-</p>
+# 🤖 Agent Square · General Collection
+
+### **31 horizontal AI agents — your digital workforce, ready on day one.**
+
+<br/>
+
+[![Agents](https://img.shields.io/badge/General_Agents-31-0A84FF?style=for-the-badge&labelColor=0D1117)](#-catalog)
+[![Track](https://img.shields.io/badge/Digital_Employees-Horizontal-00D4AA?style=for-the-badge&labelColor=0D1117)](#-catalog)
+[![Bilingual](https://img.shields.io/badge/Bilingual-ZH_·_EN-7B61FF?style=for-the-badge&labelColor=0D1117)](#-quick-start)
+[![Format](https://img.shields.io/badge/Format-Markdown_·_YAML-58A6FF?style=for-the-badge&labelColor=0D1117)](#-file-format)
+
+<br/>
+
+**[🚀 Quick Start](#-quick-start)** · **[📚 Catalog](#-catalog)** · **[🧬 Evolution](#-the-365-evolution-system)** · **[📑 File Format](#-file-format)** · **[🇨🇳 中文版](#-中文版)**
+
+</div>
 
 ---
 
-## Overview
+## 💡 What is Agent Square?
 
-This directory is the **general-purpose slice** of the *Agent Square* series — the horizontal, industry-agnostic agents that act as digital employees inside any enterprise. Industry-specific slices (finance, manufacturing, energy, healthcare, etc.) live in the companion repo [Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square).
+> **One year. 365 agents. Every day a new digital employee.**
 
-| Track | Prefix | Count | Focus |
-|-------|--------|------:|-------|
-| Foundation Agents | `01–05` | 5 | Single-capability + API-bound specialists |
-| Applied Composites | `A01–A08` | 8 | Multi-agent orchestration + multi-API workflows |
-| Advanced Scenarios | `B01–B08` | 8 | Department-level platforms |
-| Niche Verticals | `C01–C04` | 4 | Sub-domain concierges |
-| Long-Tail Specialists | `D01–D06` | 6 | Specialized back-office roles |
-| **Total** | | **31** | |
+This repo holds the **general-purpose slice** — **31 horizontal agents** that act as digital employees inside any enterprise, regardless of industry: secretary, translator, designer, HR, contract manager, ESG reporter, global-expansion coach, knowledge-base steward, and more.
 
-## Quick Start
+The **industry-specific slice (334 agents across 10 verticals)** lives in the companion repo **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**. Together they form the complete **365-agent Agent Square**.
 
-### Option 1 — Claude Code Subagent
+<table>
+<tr>
+<td width="33%" align="center">
+<br/>
+<h3>🎯</h3>
+<b>Role + Capability + Data</b>
+<br/>
+<sub>Each agent = a clear role, a toolkit of APIs, and a deliverable surface</sub>
+<br/><br/>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>🧩</h3>
+<b>Plug & Play</b>
+<br/>
+<sub>Drop into Claude Code · paste into any LLM · use as a blueprint</sub>
+<br/><br/>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>🌐</h3>
+<b>Horizontal</b>
+<br/>
+<sub>Every company needs a secretary, a translator, an ESG report — these agents work everywhere</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🧬 The 365 Evolution System
+
+<div align="center">
+
+<img src="assets/evolution-system-en.png" width="58%" alt="365 Evolution System — from foundation agents to swarm collaboration" />
+
+</div>
+
+<br/>
+
+Agents evolve along four layers — from a single-capability specialist to an orchestrated business swarm. The prefix tells you exactly where on the evolution path an agent sits:
+
+| Tier | Prefix | Role | This Collection |
+|:---:|:---:|:---|:---:|
+| 🤖 **Base** | `01–05` | Vertical-Domain Specialist · single capability + API binding | **5** |
+| 🔗 **Composite** | `A01–A08` | Multi-Agent Collaboration · multi-API orchestration | **8** |
+| 🎯 **Advanced** | `B01–B08` | Department-Level Platforms | **8** |
+| 🌀 **Niche** | `C01–C04` | Sub-Domain Concierges | **4** |
+| 🐝 **Long-Tail** | `D01–D06` | Specialized Back-Office Roles | **6** |
+| | | **Total** | **31** |
+
+<br/>
+
+## 🚀 Quick Start
+
+### 🎛️ Option 1 — Claude Code Subagent
 
 ```bash
 cp "en/10-General/A01-Enterprise-AI-Secretary.md" ~/.claude/agents/secretary.md
 ```
 
-### Option 2 — System Prompt
+### 💬 Option 2 — System Prompt (any LLM)
 
-Copy any `.md` file's content and paste it as the system prompt in Claude / ChatGPT / Gemini / domestic LLMs.
+Copy any `.md` file's content and paste it as the **system prompt** in Claude / ChatGPT / Gemini / Qwen / Kimi / DeepSeek / GLM.
 
-### Option 3 — Bundle Download
+### 📦 Bundle Downloads
 
-- Chinese: [`agent-square-general-zh.zip`](agent-square-general-zh.zip)
-- English: [`agent-square-general-en.zip`](agent-square-general-en.zip)
+<div align="center">
 
-## Catalog
+[![Download ZH](https://img.shields.io/badge/📥_Chinese_Bundle-31_Agents-00D4AA?style=for-the-badge&labelColor=0D1117)](agent-square-general-zh.zip)
+&nbsp;
+[![Download EN](https://img.shields.io/badge/📥_English_Bundle-31_Agents-0A84FF?style=for-the-badge&labelColor=0D1117)](agent-square-general-en.zip)
 
-### Foundation Agents
+</div>
+
+<br/>
+
+## 📚 Catalog
+
+### 🤖 Base — Foundation Agents
+
+| # | English | 中文 | Core Capability |
+|:---:|:---|:---|:---|
+| 01 | **Weather Forecaster** | 天气预报员 | Real-time + forecast weather intelligence |
+| 02 | **News Aggregation Editor** | 新闻聚合编辑 | Multi-source news curation + digest |
+| 03 | **Multilingual Translator** | 多语言翻译官 | Cross-lingual translation + tone preservation |
+| 04 | **Document Generator** | 文档生成专家 | Structured document drafting |
+| 05 | **Data Visualization Specialist** | 数据可视化师 | Chart generation from raw data |
+
+### 🔗 Composite — A-series Applied Composites
+
+| # | English | 中文 | Orchestration |
+|:---:|:---|:---|:---|
+| A01 | **Enterprise AI Secretary** | 企业智慧秘书 | Calendar · mail · meeting · follow-up |
+| A02 | **Auto Meeting Minutes** | 会议纪要全自动 | ASR + summary + action items |
+| A03 | **Competitive Intelligence Radar** | 竞争情报雷达 | Multi-source monitoring + analysis |
+| A04 | **Bid & Tender Specialist** | 招投标专员 | Tender search + response drafting |
+| A05 | **Contract Lifecycle Manager** | 合同全生命周期 | Draft · review · sign · archive |
+| A06 | **ESG Report Auto-Generator** | ESG 报告一键生成 | Data collection + compliance reporting |
+| A07 | **Enterprise Global Expansion** | 企业出海全链 | Market · legal · tax · localization |
+| A08 | **Knowledge-Base RAG Steward** | 知识库 RAG 管家 | Ingest · chunk · retrieve · cite |
+
+### 🎯 Advanced — B-series Department Platforms
 
 | # | English | 中文 |
-|---|---------|------|
-| 01 | Weather Forecaster | 天气预报员 |
-| 02 | News Aggregation Editor | 新闻聚合编辑 |
-| 03 | Multilingual Translator | 多语言翻译官 |
-| 04 | Document Generator | 文档生成专家 |
-| 05 | Data Visualization Specialist | 数据可视化师 |
-
-### Applied Composites (A-series)
-
-| # | English | 中文 |
-|---|---------|------|
-| A01 | Enterprise AI Secretary | 企业智慧秘书 |
-| A02 | Auto Meeting Minutes | 会议纪要全自动 |
-| A03 | Competitive Intelligence Radar | 竞争情报雷达 |
-| A04 | Bid & Tender Specialist | 招投标专员 |
-| A05 | Contract Lifecycle Manager | 合同全生命周期 |
-| A06 | ESG Report Auto-Generator | ESG报告一键生成 |
-| A07 | Enterprise Global Expansion | 企业出海全链 |
-| A08 | Knowledge-Base RAG Steward | 知识库RAG管家 |
-
-### Advanced Scenarios (B-series)
-
-| # | English | 中文 |
-|---|---------|------|
+|:---:|:---|:---|
 | B01 | Content Creation Studio | 内容创作工作室 |
 | B02 | Brand Design System | 品牌设计系统 |
-| B03 | HR-Tech Platform | HR数字化平台 |
+| B03 | HR-Tech Platform | HR 数字化平台 |
 | B04 | Real-Estate Platform | 房产中介平台 |
 | B05 | Travel Concierge | 旅游出游管家 |
 | B06 | Subscription Management | 订阅制管家 |
 | B07 | Open-Source Project Ops | 开源项目运营 |
 | B08 | Video Conferencing Platform | 视频会议平台 |
 
-### Niche Verticals (C-series)
+### 🌀 Niche — C-series Sub-Domain
 
 | # | English | 中文 |
-|---|---------|------|
+|:---:|:---|:---|
 | C01 | Corporate PR Crisis | 企业公关响应 |
-| C02 | Enterprise Training Bot | 企业培训Bot |
+| C02 | Enterprise Training Bot | 企业培训 Bot |
 | C03 | Employee Benefits | 员工福利平台 |
 | C04 | Corporate Gifting | 企业礼品采购 |
 
-### Long-Tail Specialists (D-series)
+### 🐝 Long-Tail — D-series Back-Office Specialists
 
 | # | English | 中文 |
-|---|---------|------|
+|:---:|:---|:---|
 | D01 | Admin Concierge | 企业行政管家 |
 | D02 | Procurement Digital | 采购数字化 |
 | D03 | Corporate Legal Advisor | 企业法律顾问 |
@@ -109,85 +168,208 @@ Copy any `.md` file's content and paste it as the system prompt in Claude / Chat
 | D05 | Business Intelligence Report | 企业数据报告 |
 | D06 | Digital Collectibles Ops | 数字藏品运营 |
 
-## Naming System
+<br/>
 
-Inside each industry folder, agents use prefix semantics:
+## 📑 File Format
 
-- **01–, 02–, …** — Foundation agents (single capability + API binding)
-- **A01, A02, …** — Applied composites (multi-agent orchestration + multi-API)
-- **B01, B02, …** — Advanced scenarios
-- **C01, C02, …** — Niche verticals
-- **D01, D02, …** — Long-tail specialists
-
-## File Format
-
-Each `.md` follows a YAML frontmatter + body layout:
+Every `.md` agent follows a **YAML frontmatter + structured body** layout:
 
 ```yaml
 ---
 name: 中文名
 name_en: English Name
-type: 组合应用        # optional
+type: 组合应用        # optional — marks A/B/C/D composites
 industry: 所属行业
 apis: [API list]
-emoji: icon
+emoji: 🤖
 ---
 ```
 
-Body sections:
+**Body sections:**
 
-1. **Application Scenario** — what problem it solves
-2. **Core Capabilities / Bound APIs** — what it can do + what it plugs into
-3. **Workflow** — step-by-step operation (detailed variants included)
-4. **Typical Output** — deliverable samples
+1. 🎯 **Application Scenario** — what problem it solves
+2. 🛠️ **Core Capabilities / Bound APIs** — what it can do + what it plugs into
+3. 🔀 **Workflow** — step-by-step operation
+4. 📦 **Typical Output** — deliverable samples
 
-## Directory Structure
+## 🗂️ Directory Structure
 
 ```
 agent-square/
-├── zh/10-通用/              (31 Chinese md files)
-├── en/10-General/           (31 English md files)
-├── agent-square-general-zh.zip
-├── agent-square-general-en.zip
-└── README.md
+├── 🇨🇳 zh/10-通用/              (31 Chinese md files)
+├── 🇺🇸 en/10-General/           (31 English md files)
+├── 📦 agent-square-general-zh.zip
+├── 📦 agent-square-general-en.zip
+├── 🎨 assets/                    (hero + evolution banners)
+└── 📖 README.md
 ```
 
----
-
-## 中文版
-
-### 概述
-
-本目录是 *Agent广场* 系列中的**通用部分** —— 跨行业的水平向智能体，可作为任何企业内的数字员工。行业专属部分（金融、制造、能源、医药等）见姐妹仓库 [Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)。
-
-### 31 个通用智能体分布
-
-| 层级 | 前缀 | 数量 | 定位 |
-|------|------|-----:|------|
-| 基础专业 | `01–05` | 5 | 单一能力 + API 绑定 |
-| 组合应用 | `A01–A08` | 8 | 多 Agent 编排 + 多 API |
-| 进阶场景 | `B01–B08` | 8 | 部门级平台 |
-| 细分领域 | `C01–C04` | 4 | 子领域管家 |
-| 长尾垂直 | `D01–D06` | 6 | 后台专员角色 |
-| **合计** | | **31** | |
-
-### 三种使用方式
-
-1. **Claude Code 子代理**：`cp "zh/10-通用/A01-企业智慧秘书.md" ~/.claude/agents/secretary.md`
-2. **系统提示词**：复制 md 内容贴到任意大模型的系统提示词位置
-3. **整包下载**：[`agent-square-general-zh.zip`](agent-square-general-zh.zip)
-
-### 设计理念
-
-1. **一个智能体 = 角色 + 能力 + 数据**
-2. **基础 → 组合** 的进阶路径（数字前缀 → A/B/C/D 系列）
-3. **场景优先** — 31 个真实业务锚点
-4. **交付物可见** — 每个文件均含典型输出样例
+<br/>
 
 ---
 
-<p align="center">
-  <a href="https://github.com/Cliff-AI-Lab/Ruidong-AI"><img src="https://img.shields.io/badge/RuidongAI-More_Projects-0A84FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="RuidongAI" /></a>
-  &nbsp;
-  <a href="https://x.com/RaytoneAI"><img src="https://img.shields.io/badge/@RaytoneAI-Follow-00D4AA?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117" alt="X (Twitter)" /></a>
-</p>
+<br/>
+
+<div align="center">
+
+## 🇨🇳 中文版
+
+<img src="assets/hero-zh.png" width="92%" alt="Agent广场 · 365个智能体 — 数字智库地图 · 进化系统" />
+
+<br/>
+<br/>
+
+# 🤖 Agent 广场 · 通用智能体集
+
+### **31 个水平向 AI 智能体 —— 你的数字员工，开箱即用。**
+
+</div>
+
+<br/>
+
+### 💡 这是什么？
+
+> **一年 365 天，每天一个智能体，够你用一年。**
+
+本仓库收录 **通用部分 —— 31 个水平向智能体**，不限行业、适用于任何企业的数字员工：秘书、翻译、设计师、HR、合同管家、ESG 报告员、出海顾问、知识库 RAG 管家……
+
+**行业专属部分（10 大行业 334 个智能体）** 发布在姐妹仓库 **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**。两仓合计即 **完整的 365 智能体广场**。
+
+<table>
+<tr>
+<td width="33%" align="center">
+<br/>
+<h3>🎯</h3>
+<b>角色 + 能力 + 数据</b>
+<br/>
+<sub>每个智能体 = 清晰的角色 + API 工具箱 + 可交付成果</sub>
+<br/><br/>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>🧩</h3>
+<b>即插即用</b>
+<br/>
+<sub>放进 Claude Code · 贴进任意大模型 · 当作业务蓝图</sub>
+<br/><br/>
+</td>
+<td width="33%" align="center">
+<br/>
+<h3>🌐</h3>
+<b>水平向</b>
+<br/>
+<sub>任何公司都需要秘书、翻译、ESG 报告 —— 跨行业通用</sub>
+<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🧬 365 进化系统
+
+<div align="center">
+
+<img src="assets/evolution-system-zh.png" width="58%" alt="365 进化系统 — 从基础层到群体协作" />
+
+</div>
+
+<br/>
+
+智能体沿四层进化路径展开：从单一能力专家到跨角色业务群。前缀即进化阶位：
+
+| 层级 | 前缀 | 定位 | 本集合 |
+|:---:|:---:|:---|:---:|
+| 🤖 **基础层** | `01–05` | 垂直领域专家 · 单一能力 + API 绑定 | **5** |
+| 🔗 **复合层** | `A01–A08` | 多 Agent 协作 · 多 API 编排 | **8** |
+| 🎯 **进阶层** | `B01–B08` | 部门级平台 | **8** |
+| 🌀 **小众层** | `C01–C04` | 子领域管家 | **4** |
+| 🐝 **长尾层** | `D01–D06` | 后台专员角色 | **6** |
+| | | **合计** | **31** |
+
+<br/>
+
+### 🚀 两种用法
+
+1. **🎛️ Claude Code 子代理**
+   ```bash
+   cp "zh/10-通用/A01-企业智慧秘书.md" ~/.claude/agents/secretary.md
+   ```
+2. **💬 系统提示词**：复制 md 内容贴到 Claude / ChatGPT / Gemini / Qwen / Kimi / DeepSeek / GLM 的系统提示词位置
+
+### 📦 整包下载
+
+<div align="center">
+
+[![下载中文包](https://img.shields.io/badge/📥_中文版-31_个智能体-00D4AA?style=for-the-badge&labelColor=0D1117)](agent-square-general-zh.zip)
+&nbsp;
+[![Download EN](https://img.shields.io/badge/📥_English-31_Agents-0A84FF?style=for-the-badge&labelColor=0D1117)](agent-square-general-en.zip)
+
+</div>
+
+<br/>
+
+### 📚 目录速查
+
+<details>
+<summary><b>🤖 基础层（5 个）</b> —— 单一能力 + API</summary>
+
+天气预报员 · 新闻聚合编辑 · 多语言翻译官 · 文档生成专家 · 数据可视化师
+</details>
+
+<details>
+<summary><b>🔗 复合层（8 个）</b> —— A 系列 · 多 Agent 编排</summary>
+
+企业智慧秘书 · 会议纪要全自动 · 竞争情报雷达 · 招投标专员 · 合同全生命周期 · ESG 报告一键生成 · 企业出海全链 · 知识库 RAG 管家
+</details>
+
+<details>
+<summary><b>🎯 进阶层（8 个）</b> —— B 系列 · 部门级平台</summary>
+
+内容创作工作室 · 品牌设计系统 · HR 数字化平台 · 房产中介平台 · 旅游出游管家 · 订阅制管家 · 开源项目运营 · 视频会议平台
+</details>
+
+<details>
+<summary><b>🌀 小众层（4 个）</b> —— C 系列 · 子领域管家</summary>
+
+企业公关响应 · 企业培训 Bot · 员工福利平台 · 企业礼品采购
+</details>
+
+<details>
+<summary><b>🐝 长尾层（6 个）</b> —— D 系列 · 后台专员</summary>
+
+企业行政管家 · 采购数字化 · 企业法律顾问 · 股权激励管家 · 企业数据报告 · 数字藏品运营
+</details>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+### 🌟 Explore More · 探索更多
+
+<a href="https://github.com/Cliff-AI-Lab/Ruidong-AI"><img src="https://img.shields.io/badge/RuidongAI-More_Projects-0A84FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="RuidongAI" /></a>
+&nbsp;
+<a href="https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square"><img src="https://img.shields.io/badge/Sister_Repo-Industry_Agents-7B61FF?style=for-the-badge&logo=github&labelColor=0D1117" alt="Sister Repo" /></a>
+&nbsp;
+<a href="https://x.com/RaytoneAI"><img src="https://img.shields.io/badge/@RaytoneAI-Follow-00D4AA?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117" alt="X (Twitter)" /></a>
+
+<br/>
+<br/>
+
+<sub>
+
+*From laboratory exploration in AI for Science to real-world productivity in AI for Scenes.*
+
+*一个智能体 = 一个可落地的业务锚点。一年 365 天，不重样。*
+
+</sub>
+
+<br/>
+
+Copyright &copy; 2026 Cliff AI Lab. All rights reserved.
+
+</div>
