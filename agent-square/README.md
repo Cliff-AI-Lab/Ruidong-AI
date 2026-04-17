@@ -30,7 +30,7 @@
 
 This repo holds the **general-purpose slice** — **31 horizontal agents** that act as digital employees inside any enterprise, regardless of industry: secretary, translator, designer, HR, contract manager, ESG reporter, global-expansion coach, knowledge-base steward, and more.
 
-The **industry-specific slice (334 agents across 10 verticals)** lives in the companion repo **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**. Together they form the complete **365-agent Agent Square**.
+The **industry-specific slice (306 agents across 9 verticals)** lives in the companion repo **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**. Together they form the **337-agent Agent Square**.
 
 <table>
 <tr>
@@ -233,7 +233,7 @@ agent-square/
 
 本仓库收录 **通用部分 —— 31 个水平向智能体**，不限行业、适用于任何企业的数字员工：秘书、翻译、设计师、HR、合同管家、ESG 报告员、出海顾问、知识库 RAG 管家……
 
-**行业专属部分（10 大行业 334 个智能体）** 发布在姐妹仓库 **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**。两仓合计即 **完整的 365 智能体广场**。
+**行业专属部分（9 大行业 306 个智能体）** 发布在姐妹仓库 **[Enterprise-AI-Lab/agent-square](https://github.com/Cliff-AI-Lab/Enterprise-AI-Lab/tree/main/agent-square)**。两仓合计 **337 个智能体**。
 
 <table>
 <tr>
