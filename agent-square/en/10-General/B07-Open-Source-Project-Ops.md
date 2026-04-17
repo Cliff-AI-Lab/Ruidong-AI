@@ -1,0 +1,35 @@
+---
+name: 开源项目运营
+name_en: Open Source Project Ops
+type: Composite Application
+industry: General
+apis: [GitHub API, Reddit, HackerNews]
+emoji: 🐙
+---
+
+# 🐙 开源项目运营
+
+## Use Case
+开源项目的Issue/PR管理+社区运营+Contributor培养+Star增长。
+
+## Core Capabilities
+- Issue三分流
+- PR审查流程
+- Contributor升级
+- 社区活动
+
+## Sample Output
+```
+【某开源项目 月报】
+Star: 28K (↑1,800)
+Contributors: 280 (↑18)
+PR数: 340 | 合并 280 | 关闭 60
+Issue:
+  - 新增 820
+  - 关闭 760
+  - 平均首响 4小时
+Hacktoberfest: 参与120人
+社区:
+  - Discord 4,200人
+  - 线上会议 月1次
+```

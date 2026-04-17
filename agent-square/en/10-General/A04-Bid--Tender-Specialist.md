@@ -1,0 +1,60 @@
+---
+name: 招投标专员
+name_en: Bid & Tender Specialist
+type: Composite Application
+industry: General
+composed_of: [政策研究员, 法律文书审查员, 文档生成专家, 销售数据分析师]
+source_refs: [Deal Strategist, Proposal Strategist, Sales Engineer]
+apis: [USASpending, Federal Register, PDFMonkey]
+emoji: 📑
+---
+
+# 📑 招投标专员 Bid & Tender Specialist
+
+## Use Case
+B2B/B2G企业投标: 商机发现→方案撰写→资质齐备→响应递交。
+
+## Agent Composition
+```
+[政策研究员] ← Government Digital Presales
+[法律文书审查员] ← Legal Document Review
+[Deal Strategist] ← sales
+[Proposal Strategist] ← sales
+[Sales Engineer] ← sales
+```
+
+## Bound APIs
+| API | Purpose |
+|-----|------|
+| USASpending | 美国政府采购 |
+| Federal Register | 招标公告 |
+| PDFMonkey | 投标文件 |
+
+## 核心工作流
+1. **商机发现**：关键词订阅
+2. **资格匹配**：资质/业绩
+3. **方案撰写**：模板+个性化
+4. **价格策略**：基于历史中标价
+5. **投标递交**：在线/纸质
+
+## Sample Output
+```
+【投标季度战报 Q1-2026】
+投标: 42项 | 中标 12项 (28.6%)
+中标额: ¥6,800万 (↑15% YoY)
+Top中标:
+  1. 某省政务云 ¥1,200万
+  2. 某企业数据中台 ¥850万
+  3. 某医院信息化 ¥680万
+未中标分析:
+  - 价格过高: 8项
+  - 技术不达标: 2项
+  - 资质不足: 1项
+本周机会雷达:
+  - 某市AI公共服务平台 ¥2亿 (预备中)
+  - 某集团财务中台 ¥800万 (资格审查中)
+  - 某省数据治理 ¥500万 (预答疑中)
+资质库:
+  - ISO27001/20000/CMMI3等完备
+  - 差1项: 涉密甲级 (申办中)
+```

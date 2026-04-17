@@ -1,0 +1,31 @@
+---
+name: 企业礼品采购
+name_en: Corporate Gifting
+type: Composite Application
+industry: General
+apis: [Shopify, AfterShip, OpenCorporates]
+emoji: 🎀
+---
+
+# 🎀 企业礼品采购
+
+## Use Case
+企业年会/客户关怀/员工激励的礼品选型+批量采购+配送。
+
+## Sample Output
+```
+【企业礼品 季度】
+订单: 28,000单 | GMV ¥1.8亿
+场景:
+  - 年会 32% | 客户关怀 28%
+  - 员工激励 22% | 节日 18%
+热门品类:
+  - 定制周边 42%
+  - 高端数码 22%
+  - 传统文化 15%
+  - 食品礼盒 12%
+  - 其他 9%
+批量配送:
+  - 全球覆盖
+  - 定制包装/卡片
+```

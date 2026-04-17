@@ -1,0 +1,65 @@
+---
+name: 品牌设计系统
+name_en: Brand Design System
+type: Composite Application
+industry: General
+composed_of: [文档生成专家, 数据可视化师, AI模型评测师]
+source_refs: [Brand Guardian, UI Designer, UX Architect, UX Researcher, Visual Storyteller, Whimsy Injector, Inclusive Visuals Specialist, Image Prompt Engineer(design 所有8个)]
+apis: [Unsplash, Pexels, HuggingFace, Dribbble (via other)]
+emoji: 🎭
+---
+
+# 🎭 品牌设计系统 Brand Design System
+
+## Use Case
+企业级设计中台: 品牌规范+组件库+设计工具+多端一致性。
+
+## Agent Composition (榨取 design 全部8个)
+```
+[Brand Guardian] ← design
+[UI Designer] ← design
+[UX Architect] ← design
+[UX Researcher] ← design
+[Visual Storyteller] ← design
+[Whimsy Injector] ← design
+[Inclusive Visuals Specialist] ← design
+[Image Prompt Engineer] ← design
+```
+
+## Bound APIs
+| API | Purpose |
+|-----|------|
+| Unsplash/Pexels | 参考素材 |
+| HuggingFace | AIGC生成 |
+| GitHub API | 组件库发布 |
+
+## 核心工作流
+1. **品牌资产**：LOGO/色彩/字体
+2. **组件库**：跨平台Tokens
+3. **设计工具插件**：Figma/Sketch
+4. **可访问性**：WCAG AA/AAA
+5. **AI辅助**：快速出图/迭代
+
+## Sample Output
+```
+【某科技公司 设计系统 v3.0】
+覆盖:
+  - Web端 组件 280个
+  - 移动端 (iOS/Android) 同步
+  - 设计Tokens (色/字/间距) 1,200个
+一致性指标:
+  - 页面设计偏离<5%
+  - 跨端视觉一致度 94%
+生产力:
+  - 新页面开发 3天 → 1天
+  - 设计评审通过率 85%
+  - 设计师人效 +40%
+可访问性:
+  - 对比度全部 AA 达标
+  - 色盲模拟通过 98%
+  - 键盘/读屏 完整支持
+AIGC应用:
+  - 运营Banner AI生成 占60%
+  - 插画复用率 75%
+下阶段: XR界面规范 + 深色模式3.0
+```
